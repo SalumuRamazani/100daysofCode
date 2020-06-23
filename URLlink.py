@@ -10,5 +10,5 @@ def extract_Links (link):
   for link in Cont_HTML.findAll('a', attrs={'href': re.compile(linkRegex)}):
     print (link.get("href"))
 
-extract_Links ("http://www.jeuxvideo.com/")
+extract_Links ("http://www.example.com/")
 	
